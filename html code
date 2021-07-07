@@ -1,7 +1,12 @@
 <!DOCTYPE html> 
 <html>
 <head>
+this is information not displayed on web page
+<title>wedding website</title>
 </head>
 <body>
+<h1>austin and sabina's wedding website</h1>
+<p>wedding date = <strong>july 1, 2022</strong></p>
+<img src="https://photos.google.com/album/AF1QipMLyO72ZoY7b1iqTSoG7CRF85kJgdxRILwcseQR/photo/AF1QipNZXYGazl69qRNfW9CYWSGr5F5mjl0PScNcOkx8>
 </body>
 </html>
