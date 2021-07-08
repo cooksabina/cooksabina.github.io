@@ -24,50 +24,16 @@
 
 <h3 style="font-family:arial;">wedding date:<strong> july 1, 2022</strong></h3>
     
-<script>
-var end = new Date('07/01/2022 03:45 PM');
-
-    var _second = 1000;
-    var _minute = _second * 60;
-    var _hour = _minute * 60;
-    var _day = _hour * 24;
-    var timer;
-
-    function showRemaining() {
-        var now = new Date();
-        var distance = end - now;
-        if (distance < 0) {
-
-            clearInterval(timer);
-            document.getElementById('countdown').innerHTML = 'EXPIRED!';
-
-            return;
-        }
-        var days = Math.floor(distance / _day);
-        var hours = Math.floor((distance % _day) / _hour);
-        var minutes = Math.floor((distance % _hour) / _minute);
-        var seconds = Math.floor((distance % _minute) / _second);
-
-        document.getElementById('countdown').innerHTML = days + 'days ';
-        document.getElementById('countdown').innerHTML += hours + 'hrs ';
-        document.getElementById('countdown').innerHTML += minutes + 'mins ';
-        document.getElementById('countdown').innerHTML += seconds + 'secs';
-    }
-
-    timer = setInterval(showRemaining, 1000);
-</script>
-<div id="countdown"></div>   
-    
     <h3 style="font-family:arial;">location:<strong> <a href="https://www.google.com/maps/place/Roaring+Camp/@36.8332067,-123.5447903,7z/data=!4m5!3m4!1s0x808e46b5c05f0a89:0xf71945ac653a632b!8m2!3d37.0403366!4d-122.0609596">roaring camp railroads</a> in felton, ca
 </strong></h3>    
     
 <br><h2 style="font-family:arial;color:white;"><strong>music ♪┏(・o･)┛♪</strong></h2>
     
 <figure>
-    <figcaption style="font-family:arial;">fancy by TWICE</figcaption>
+    <figcaption style="font-family:arial;">tomorrow morning by jack johnson</figcaption>
     <audio
         controls
-        src="TWICE (트와이스) 'FANCY' (Color Coded Lyrics Eng_Rom_Han_가사).mp3">
+        src="Tomorrow Morning.mp3">
             Your browser does not support the
             <code>audio</code> element.
     </audio>
